@@ -41,7 +41,7 @@ function renderLicenseSection(license) {
   if (license === 'None') {
     licenseSection = ''
   } else {
-    licenseSection = 'License: ${license}'
+    licenseSection = `License: ${answer.license}`
   }
   return licenseSection;
 }

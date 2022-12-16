@@ -142,7 +142,7 @@ const writeToFile = fileContent => {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.createPromptModule(questions)
+    inquirer.prompt(questions)
     .then(function(answer) {
         console.log(answer);
     var fileContent = generateMarkdown(answer);
