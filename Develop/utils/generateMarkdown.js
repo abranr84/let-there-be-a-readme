@@ -54,7 +54,7 @@ function generateMarkdown(answer) {
   ### ${renderLicenseLink(answer.license)}
 
   ## Table of Contents:
-  ### * [Licensse](#license)
+  ### * [License](#license)
   ### * [Installation](#installation)
   ### * [Usage](#usage)
   ### * [Contributors](#contributors)
